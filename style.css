@@ -28,11 +28,11 @@ input {
 }
 .img-znak {
   width: 60px;
-  height: 60px;
+  height: 50px;
 }
 nav ul {
   display: flex;
-  background-color: rgb(72, 66, 52);
+  background-color: #5f483e;
   justify-content: center;
 }
 nav ul li {
@@ -72,7 +72,7 @@ header {
   background-size: cover;
   
   filter: blur(5px);
-  transition: 0.5s;
+  transition: 0/5s;
 }
 header:hover {
   filter: blur(0);
